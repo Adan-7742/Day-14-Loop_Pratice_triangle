@@ -163,7 +163,7 @@ int triangle_3(int n) {
 
 */
 
-int triangle_3(int n) {
+int triangle_4(int n) {
 
 	for (int i = 1;i <= n;i++) {  // this loop is used for printing or telling the computer to 
 		//  to print row
@@ -196,7 +196,7 @@ int triangle_3(int n) {
 
 */
 
-int triangle_4(int n) {
+int triangle_5(int n) {
 
 	for (int i = 1;i <= n;i++) {  // this loop is used for printing or telling the computer to 
 		//  to print row
@@ -225,5 +225,6 @@ int main()
 	triangle_2(c);
 	triangle_3(c);
 	triangle_4(c);
+	triangle_5(c);
 }
 
